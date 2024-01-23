@@ -1,0 +1,123 @@
+{"intents": [
+        {"tag": "greeting",
+        "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+        "responses": ["Hello, welcome to Dublin Business School. How can I help you today?"],
+        "context": [""]
+        },
+        {"tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+        "responses": ["Goodbye! Have a great day ahead.", "Bye! Come back again soon.", "See you soon!"],
+        "context": [""]
+        },
+        {"tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+        "responses": ["You're welcome!", "Anytime. Glad to help!", "My pleasure."],
+        "context": [""]
+        },
+        {"tag": "noanswer",
+        "patterns": [],
+        "responses": ["I'm sorry, I didn't understand what you said. Can you please rephrase it?", "I'm sorry, I don't have an answer to that. Can you please ask me something else?", "Sorry, can you provide me with more information?"],
+        "context": [""]
+        },
+        {"tag": "options",
+        "patterns": ["Courses","What courses does the Dublin Business School offer?", "Can you provide me with information on the international student community?", "What facilities are available at the Dublin Business School?", "Can you tell me about the MBA program?"],
+        "responses": ["We offer a wide range of courses including MBA, CS and many more. Our college has a large international student base. We offer various facilities such as a library, computer labs, sports facilities, and more. The MBA program is a two-year program that provides students with a strong foundation in business principles and practical skills."],
+        "context": [""]
+        },
+        {"tag": "mba_program",
+        "patterns": ["MBA","What is the duration of the MBA program?", "What are the eligibility criteria for the MBA program?", "What is the fee structure for the MBA program?"],
+        "responses": ["The MBA program is a two-year program. The eligibility criteria for the MBA program is a bachelor's degree in any discipline with a minimum of 50% marks. The fee structure for the MBA program varies depending on the specialization and mode of study. You can visit our website for more information."],
+        "context": [""]
+        },
+        {"tag": "cs_program",
+        "patterns": ["Computer Science","What are the eligibility criteria for the CS program?", "What topics are covered in the CS program?", "What is the fee structure for the CS program?"],
+        "responses": ["The eligibility criteria for the CS program is a bachelor's degree in computer science or a related field. The CS program covers topics such as programming languages, algorithms, software engineering, database management, and more. The fee structure for the CS program varies depending on the specialization and mode of study. You can visit our website for more information."],
+        "context": [""]
+        },
+        {"tag": "library",
+        "patterns": ["Library","What are the library timings?", "What facilities are available at the library?", "Can I borrow books from the library?"],
+        "responses": ["The library timings are from 9 am to 9 pm on weekdays and from 9 am to 6 pm on weekends. The library provides facilities such as computer workstations, printing, scanning, and photocopying."],
+        "context": [""]
+        },
+        {"tag": "exams",
+        "patterns": ["Exams","Will exams remain online for the duration of 2022/2023?"],
+        "responses": ["Exams will continue to be held online for the foreseeable future, including Summer exams."],
+        "context": [""]
+        },        
+        {"tag": "lectures",
+        "patterns": ["Lecture","Will all lectures be recorded and available after the live delivery?"],
+        "responses": ["Yes, other than a small number of modules where the content or discussion in the class is sensitive and unsuitable for recording."],
+        "context": [""]
+        },        
+        {"tag": "academic",
+        "patterns": ["What grade do I need to pass a module?"],
+        "responses": ["The overall module result must be 40% or higher to be considered 'passed'. You can view your overall module result at https://elearning.dbs.ie/exams_results.php If you are unsure, contact your Programme Coordinator."],
+        "context": [""]
+        },       
+        {"tag": "academic",
+        "patterns": ["What is the procedure to repeat an assignment or an exam?"],
+        "responses": ["You will be automatically enrolled to repeat any failed exam / assignment. Please note the relevant fee for repeats. Typically repeats take place during the summer (July-August). The repeat exam dates are available on the exams office website."],         "context": [""]
+        },
+                
+        {"tag": "academic",
+        "patterns": ["Where can I find my timetable for my classes?"],
+        "responses": ["Each student can download the Outlook App in order to view their personal timetable on their own device. Instructions for using the Outlook App can be found in the FAQ section of the Service Desk https://servicedesk.dbs.ie\n\nTimetables can also be viewed using the following link here."],
+        "context": [""]
+        },      
+        {"tag": "academic",
+        "patterns": ["How do I enquire about changing my course?"],
+        "responses": ["Click here to request a course change. Please note a change of course mid-stage through an academic year (or 2 weeks after the start date of a programme) cannot be accommodated."],
+        "context": [""]
+        },       
+        {"tag": "academic",
+        "patterns": ["I want to change or de-register a module"],
+        "responses": ["Contact your Programme Coordinator to change or de-register a module. Please note there is a strict two-week window at the start of each semester in which you can change your modules. After this two-week window has elapsed, it will not be possible to change your modules."],
+        "context": [""]
+        },       
+        {"tag": "administrative",
+        "patterns": ["Student cards for new students:"],
+        "responses": ["All student cards are in the process of being posted to local addresses. Please ensure we have a local address for you and your photo is uploaded at dbs.ie/photoupload. You must ensure your full address, including Eircode, is correct in your Personal Details section of https://students.dbs.ie/dashboard"],
+        "context": [""]
+        },       
+        {"tag": "administrative",
+        "patterns": ["Where do I find the Academic Calendars?"],
+        "responses": ["Academic Calendars are available by clicking here Please check this for the holiday periods, exam sessions and readings weeks scheduled each year. Do not book any holidays during the exam periods."],
+        "context": [""]
+         },     
+        {"tag": "administrative",
+        "patterns": ["How do I update my personal details?"],
+        "responses": ["You can change your name, address and update your PPSN through your student dashboard under “Personal Details”. This allows you to update two address types.\n\nYour term time address which is the..."],
+        "context": [""]
+        }, 
+        {"tag": "Online Exams and Lectures",
+        "patterns": ["Exam","Will exams remain online for the duration of 2022/2023?", "Will all lectures be recorded and available after the live delivery?"],
+        "responses": ["Exams will continue to be held online for the foreseeable future, including Summer exams.", "Yes, other than a small number of modules where the content or discussion in the class is sensitive and unsuitable for recording."],
+        "context": [""]
+        },
+        {"tag": "Quality Assurance Handbook",
+         "patterns": ["Where can I find the policies and procedures that govern the running of DBS programmes?", "What should I know about assessment, grading, assignment submission and learner conduct?"],
+          "responses": ["The policies and procedures that govern the running of DBS programmes are located within our Quality Assurance Handbook, located here: https://students.dbs.ie/quality-assurance/qah", "We encourage all students to familiarise themselves with the QAH linked above, especially regarding assessment, grading, assignment submission and learner conduct."],
+          "context": [""]
+        },
+        {"tag": "Missing Exam/Assignment Submission",
+          "patterns": ["I cannot sit an exam/I cannot submit my assignment on time.", "What should I do if I miss an exam or am late submitting an assignment?"],
+          "responses": ["If you miss an exam, PMC (Personal Mitigating Circumstances) form must be completed and emailed to your Programme Coordinator, along with supporting documentation such as a medical certificate, or something equivalent. This documentation should be sent before the examination date.", "If you are late submitting an assignment, an Assignment Extension Request form must be completed and emailed to your Programme Coordinator, along with supporting documentation such as a medical certificate, or something equivalent. This documentation should be received prior to the submission deadline. PMC/Assignment Extension requests should never be assumed to be approved until written notice has been sent to you."],
+          "context": [""]
+        },
+        {"tag": "Passing a Module",
+         "patterns": ["What grade do I need to pass a module?", "How is a module considered 'passed'?"],
+          "responses": ["The overall module result must be 40% or higher to be considered 'passed'. You can view your overall module result at https://elearning.dbs.ie/exams_results.php If you are unsure, contact your Programme Coordinator."],
+          "context": [""]
+        },
+        {"tag": "Repeating a Module/Exam",
+         "patterns": ["What is the procedure to repeat an assignment or an exam?", "How do I enrol to repeat a failed exam/assignment?"],
+          "responses": ["You will be automatically enrolled to repeat any failed exam / assignment. Please note the relevant fee for repeats. Typically repeats take place during the summer (July-August). The repeat exam dates are available on the exams office website."],
+          "context": [""]
+        },
+        {"tag": "Timetables",
+          "patterns": ["TimeTable","Where can I find my timetable for my classes?", "How can I view my personal timetable?"],
+          "responses": ["Each student can download the Outlook App in order to view their personal timetable on their own device. Instructions for using the Outlook App can be found in the FAQ section of the Service Desk https://servicedesk.dbs.ie" ],
+          "context": [""]
+        }
+        ]            
+ }
